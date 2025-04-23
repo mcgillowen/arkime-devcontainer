@@ -1,0 +1,2 @@
+BUILDAH_FORMAT=docker \
+podman "$@"
