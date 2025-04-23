@@ -1,0 +1,10 @@
+{
+  "image": "ghcr.io/mcgillowem/arkime-devcontainer:",
+  "remoteUser": "arkime",
+  "containerUser": "arkime",
+  "runArgs": [
+    "--userns=keep-id:uid=1000,gid=1000"
+  ],
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
+	"workspaceFolder": "/workspace",
+}
