@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/mcgillowem/arkime-devcontainer:",
+  "image": "ghcr.io/mcgillowem/arkime-devcontainer:latest",
   "remoteUser": "arkime",
   "containerUser": "arkime",
   "runArgs": [
