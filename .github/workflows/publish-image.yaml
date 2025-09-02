@@ -24,7 +24,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu]
-        version: [22.04]
+        version: [22.04,24.04]
     runs-on: ubuntu-latest
     # Sets the permissions granted to the `GITHUB_TOKEN` for the actions in this job.
     permissions:
@@ -75,4 +75,3 @@ jobs:
           subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
-      

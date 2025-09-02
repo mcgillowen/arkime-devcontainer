@@ -13,3 +13,5 @@ For more information refer to the [Dev Containers documentation](https://code.vi
 
 If you are using `podman` as container runner, then I recommend using the `podman-devcontainer-wrapper` since it configures `podman` to run with the `docker` format instead of `oci`, it does it by setting the `BUILDAH_FORMAT` environment variable to `docker`.
 This is required since the devcontainer CLI uses `SHELL` instructions when executing devcontainers which the OCI format does not support.
+
+Configure the extension to use the wrapper by modifying the extension settings, `"dev.containers.dockerPath": "<path to podman-devcontainer-wrapper>"`.
