@@ -47,6 +47,7 @@ RUN \
     libnghttp2-dev \
     liblua5.4-dev \
     librdkafka-dev \
+    libnl-genl-3-dev \
     libzstd-dev && \
   rm -rf /var/lib/apt/lists/*
 
